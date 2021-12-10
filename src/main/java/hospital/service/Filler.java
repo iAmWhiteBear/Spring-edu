@@ -29,7 +29,7 @@ public class Filler {
 
     public static List<Doctor> getDoctors(){
         return doctors;
-    }
+    } 
 
     public static Patient getPatient() {
         return patients.get((int)(Math.random()*patients.size()));
